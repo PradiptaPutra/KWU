@@ -130,4 +130,34 @@
     padding: 20px;
     text-align: center;
   }
+
+  #instagram {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    
+  }
   
+  #instagram h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #instagram p {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  
+  #instagram img {
+    width: 80px;
+    height: 80px;
+    border-radius:20%;
+    margin-bottom: 20px;
+    margin-left: 40%;
+  }
+
+  @media screen and (max-width: 768px) {
+    #instagram img {
+      width: 60px;
+      height: 60px;
+    }
+  }
